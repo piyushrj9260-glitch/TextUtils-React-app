@@ -36,3 +36,102 @@
     transform: rotate(360deg);
   }
 }
+
+/* Dark navbar */
+.navbar.bg-dark {
+  background-color: #212529 !important;
+}
+
+/* Light navbar */
+.navbar.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+/* Dark drawer */
+.drawer-dark {
+  background-color: #212529;
+  color: white;
+}
+
+.drawer-dark .nav-link {
+  color: white;
+}
+
+.drawer-dark .drawer-title {
+  color: white;
+}
+
+/* Light drawer */
+.drawer-light {
+  background-color: white;
+  color: #212529;
+}
+
+.drawer-light .nav-link {
+  color: #212529;
+}
+
+.drawer-light .drawer-title {
+  color: #212529;
+}
+
+/* Light mode */
+.app.light {
+  min-height: 100vh;
+  background-color: #ffffff;
+  color: #212529;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark mode */
+.app.dark {
+  min-height: 100vh;
+  background-color: #042743;
+  color: #ffffff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Text area */
+.app.dark textarea {
+  background-color: #13466e;
+  color: #ffffff;
+  border-color: #5b7c99;
+}
+
+.app.dark textarea::placeholder {
+  color: #d0dce5;
+}
+
+/* Headings and text */
+.app.dark h1,
+.app.dark h2,
+.app.dark h3,
+.app.dark p,
+.app.dark label {
+  color: #ffffff;
+}
+
+/* Buttons */
+.app.dark .btn {
+  color: #ffffff;
+}
+
+/* Text summary preview */
+.app.dark .preview {
+  color: #ffffff;
+}
+
+.app {
+  min-height: 100vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.app.light {
+  background-color: white;
+  color: #212529;
+}
+
+.app.dark {
+  background-color: #042743;
+  color: white;
+}
